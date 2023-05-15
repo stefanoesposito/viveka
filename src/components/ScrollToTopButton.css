@@ -1,0 +1,66 @@
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1976D2;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.scroll-to-top-button.show {
+    display: flex;
+}
+
+.bookmark-button {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: #1976D2;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bookmark-button.show {
+    display: flex;
+}
+
+.bookmark:before {
+    content: "Posizione salvata!";
+    display: none;
+    position: fixed;
+    bottom: 130px;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.bookmark.active:before {
+    display: block;
+}
+
+@media only screen and (min-width: 768px){
+    .bookmark:before {
+    bottom: 10%;
+    right: -2%;
+}
+}

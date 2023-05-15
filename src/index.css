@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +11,113 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 30px 0 20px;
+  max-width: 650px;
+  margin: 110px auto;
+  flex-grow: 1;
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title {
+  color: #1976D2;
+  font-size: 16px;
+  padding: 0 16px;
+  vertical-align: center;
+}
+
+@media only screen and (min-width: 768px){
+  .title {
+    font-size: 24px;
+    padding: 0 48px 0 16px;
+  }
+
+  .searchInput {
+    width: 400px;
+  }
+
+  .container {
+    margin: 110px auto;
+  }
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  background-color: #ffffff;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.searchWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.search {
+  display: flex;
+  height: 40px;
+  align-self: start;
+}
+
+.search button svg {
+  width: 30px;
+  height: 30px;
+}
+
+.sutra {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.foundText {
+  margin: 5px 0;
+}
+
+.greyText {
+  color: #777777;
+}
+
+.number {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.number:hover {
+  color: #1976D2;
+}
+
+.highlight {
+  background-color: yellow;
 }
