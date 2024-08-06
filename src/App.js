@@ -154,7 +154,7 @@ function App() {
                                     ) : null}
                                     {searchResultsCount !== 0 && searchResultsCount !== 580 && (
                                         <small className={"greyText"}>
-                                            <i>Clicca su un sutra per raggiungerlo</i>
+                                            <i>Cliccare sul n° del sutra interessato</i>
                                         </small>
                                     )}
                                 </div>
