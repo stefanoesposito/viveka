@@ -83,6 +83,10 @@ function App() {
         }
     };
 
+    const handleClick = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
     useEffect(() => {
         restoreScrollPosition();
     }, [sutras, search]);
@@ -117,7 +121,7 @@ function App() {
                     {showNavBar && (
                         <nav className="navbar">
                             <div className="wrapper">
-                                <h1 className={"title"}>Vivekacudamani</h1>
+                                <h1 className={"title"} onClick={handleClick}>Vivekacudamani</h1>
                                 <div className="searchWrapper">
                                     <div className={"search"}>
                                         <Input

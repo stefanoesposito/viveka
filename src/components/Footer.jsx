@@ -8,7 +8,7 @@ const Footer = () => {
                 Made with love by <a
                 target="_blank"
                 className="linkWho"
-                href="https://twitter.com/stefanoballad"
+                href="https://linktr.ee/stefanoesposito75"
                 rel="noreferrer"
             >
                 Stefano Esposito
