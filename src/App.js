@@ -187,7 +187,7 @@ function App() {
 
                                 <p>Nel trattato, celebrato per secoli come un lucido trattato introduttivo all'Advaita Vedanta, i concetti sono presentati in modo penetrante, incisivo e chiaro, e comprendono una serie di soggetti che vanno dalla preparazione di sé, all'imparare a discernere il reale dal non-reale, al controllare la propria personalità al fine di liberarsi, alla finale realizzazione dell'Essere-senza-secondo.</p>
 
-                                <p>Nel Dialogo vengono inotre dettagliatamente descritte i cinque "involucri" (detti <em>Kosha</em>) o "guaine" che velano la conoscenza dell'Ātman: </p>
+                                <p>Nel Dialogo vengono inotre dettagliatamente descritti i cinque "involucri" (detti <em>Kosha</em>) o "guaine" che velano la conoscenza dell'Ātman: </p>
 
                                 <ol>
                                     <li>l'involucro fatto di cibo (corpo grossolano)</li>
