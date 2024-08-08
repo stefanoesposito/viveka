@@ -187,7 +187,7 @@ function App() {
 
                                 <p>Il testo consiste di 580 versi (<em>sūtra</em>) ed è narrato sotto forma di <em>satsang</em> (dialogo tra maestro e discepolo) in cui si susseguono tematiche relative a religione, spiritualità, metafisica, filosofia, con lo scopo di aiutare l'individuo a liberarsi dall'illusione attraverso l'uso della discriminazione (<em>Viveka</em>).</p>
 
-                                <p>Per Samkara è esclusivamente questa <em>Viveka</em>, il discernimento, e conseguentemente il <em>Vairagya</em> (il distacco) a portare all'integrale soluzione dei coaguli energetici che velano l'identità col <em>Brahman</em> e quindi alla Libeazione (Moksha).</p>
+                                <p>Per Samkara è esclusivamente questa <em>Viveka</em>, il discernimento, e conseguentemente il <em>Vairagya</em> (il distacco) a portare all'integrale soluzione dei coaguli energetici che velano l'identità col <em>Brahman</em> e quindi alla Libeazione (<em>Moksha</em>).</p>
 
                                 <p>Tutte le altre pratiche religiose come la <em>bhakti</em> (la devozione nei confronti della divinità), o l'attività sacrificale e le restanti pratiche cultuali e morali, non consentono il raggiungimento del fine ultimo, ma solo l'ottenimento di rinascite favorevoli.</p>
 
