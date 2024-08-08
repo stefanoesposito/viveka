@@ -173,7 +173,7 @@ function App() {
                         </nav>
                     )}
 
-                    <Accordion expanded={expanded} onChange={handleAccordionToggle} style={{backgroundColor: '#fafafa'}}>
+                    <Accordion expanded={expanded} onChange={handleAccordionToggle} style={{backgroundColor: '#fafafa', marginBottom: 30}}>
                         <AccordionSummary
                             expandIcon={<ArrowDropDownIcon />}
                             aria-controls="panel2-content"
