@@ -10,6 +10,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import CloseIcon from '@mui/icons-material/Close';
 
 function App() {
     const [sutras, setSutras] = useState([]);
@@ -17,6 +18,11 @@ function App() {
     const [searchResultsCount, setSearchResultsCount] = useState(0);
     const [showNavBar, setShowNavBar] = useState(true);
     const [lastScrollTop, setLastScrollTop] = useState(0);
+    const [expanded, setExpanded] = useState(false);
+
+    const handleAccordionToggle = (event, isExpanded) => {
+        setExpanded(isExpanded);
+    };
 
     const searchInputRef = useRef(null);
 
@@ -167,7 +173,7 @@ function App() {
                         </nav>
                     )}
 
-                    <Accordion>
+                    <Accordion expanded={expanded} onChange={handleAccordionToggle} style={{backgroundColor: '#fafafa'}}>
                         <AccordionSummary
                             expandIcon={<ArrowDropDownIcon />}
                             aria-controls="panel2-content"
@@ -203,16 +209,18 @@ function App() {
                                 <p><em>"Dove se n’è andato l’universo? Chi l’ha fatto svanire? L’ho appena scorto ed ecco che esso è già sparito. O meraviglia di un miraggio!"</em></p>
                                 <p>e più avanti nel testo (sutra 496) realizza:</p>
                                 <p><em>"Sono l’oceano dell’illimitata beatitudine ed è in me che le onde senza fine dell’universo si formano e si dissolvono nel gioco capriccioso della māyā."</em></p>
+                                <p> e ancora (sutra 513):</p>
+                                <p><em>"In verità sono questo Brahman non-duale, sostrato di tutti i fenomeni, che illumina con la sua luce tutto lo spettacolo, che assume molteplici forme, che è onnipresente, eterno, puro, immutabile e assoluto"</em></p>
 
-                                <p>Alla fine di questo dialogo-satsang il discepolo, realizza la propria identità di <em>Ātman-Brahman</em> (<em>"In verità sono questo Brahman non-duale, sostrato di tutti i fenomeni, che illumina con la sua luce tutto lo spettacolo, che assume molteplici forme, che è onnipresente, eterno, puro, immutabile e assoluto"</em>); quindi si congeda dal Maestro, e le loro strade si dividono, senza attaccamento, senza alcun residuo di sentimentalismo.</p>
+                                <p>Alla fine di questo dialogo-satsang il discepolo, realizzata la propria identità di <em>Ātman-Brahman</em>, si congeda dal Maestro e le loro strade si dividono, senza attaccamento, senza alcun residuo di sentimentalismo.</p>
                                 <p>In realtà non c'è più un "discepolo": realizzato l'Essere-senza-secondo, un nuovo Maestro va per la sua strada, e si offrirà spontaneamente a chi busserà per essere.</p>
-
-
-
                                 <div>
                                     <p><small>Il testo è tratto da <strong><em>Vivekacūḍāmaṇi</em>: Il gran gioiello della discriminazione</strong> (a cura di Raphael), Editrice Asram Vidya, Roma, 1981</small></p>
                                 </div>
                             </Typography>
+                            <div style={{display: 'flex', justifyContent: 'flex-end'}}>
+                                <CloseIcon onClick={handleAccordionToggle} fontSize={'small'} style={{ cursor: 'pointer' }}></CloseIcon>
+                            </div>
                         </AccordionDetails>
                     </Accordion>
                     {sutras
