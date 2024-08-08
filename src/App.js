@@ -191,7 +191,7 @@ function App() {
 
                                 <p>Tutte le altre pratiche religiose come la <em>bhakti</em> (la devozione nei confronti della divinità), o l'attività sacrificale e le restanti pratiche cultuali e morali, non consentono il raggiungimento del fine ultimo, ma solo l'ottenimento di rinascite favorevoli.</p>
 
-                                <p>Nel trattato, celebrato per secoli come un lucido trattato introduttivo all'Advaita Vedanta, i concetti sono presentati in modo penetrante, incisivo e chiaro, e comprendono una serie di soggetti che vanno dalla preparazione di sé, all'imparare a discernere il reale dal non-reale, al controllare la propria personalità al fine di liberarsi, alla finale realizzazione dell'Essere-senza-secondo.</p>
+                                <p>Quest'opera, celebrata per secoli come un lucido compendio introduttivo all'Advaita Vedanta, presenta i concetti in modo penetrante, incisivo e chiaro. Essa copre una serie di argomenti che spaziano dalla preparazione di sé, all'imparare a discernere il reale dal non-reale, al controllo della propria personalità per liberarsi, fino alla realizzazione finale dell'Essere-senza-secondo.</p>
 
                                 <p>Nel Dialogo vengono inotre dettagliatamente descritti i cinque "involucri" (detti <em>Kosha</em>) o "guaine" che velano la conoscenza dell'Ātman: </p>
 
