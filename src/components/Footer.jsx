@@ -3,6 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
     return (
+        <>
         <footer className="footer">
             <div>
                 Made with love by <a
@@ -14,7 +15,9 @@ const Footer = () => {
                 Stefano Esposito
             </a>
             </div>
+            <p style={{textAlign: 'center'}}><small><em>Questo sito non utilizza cookies</em></small></p>
         </footer>
+        </>
     )
 }
 
