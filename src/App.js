@@ -179,7 +179,7 @@ function App() {
                             aria-controls="panel2-content"
                             id="panel2-header"
                         >
-                            <Typography>{expanded ? 'Introduzione' : 'Leggi l\'introduzione'}</Typography>
+                            <Typography>{expanded ? <strong>Introduzione</strong> : 'Leggi l\'introduzione'}</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography>
